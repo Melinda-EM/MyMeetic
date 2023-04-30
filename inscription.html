@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <form method="POST" onclick="validation();">
+        <fieldset>
+            <legend>Inscription</legend>
+            <div id="email_form">
+                <label>Email : </label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com">
+            </div>
+            <div id="password_form">
+                <label>Mot de passe : </label>
+                <input type="password" id="password" name="password" placeholder="mot de passe">
+            </div>
+            <div id="gender_form">
+                <label>Genre : </label>
+                <input type="radio" value="homme" name="gender">
+                <span>Homme</span>
+                <input type="radio" value="femme" name="gender">
+                <span>Femme</span>
+                <input type="radio" value="autre" name="gender">
+                <span>Autre</span
+            </div>
+            <div id="submit_form">
+                <input type="submit" class="button" value="Envoyer">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

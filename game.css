@@ -1,0 +1,138 @@
+    @font-face {
+        font-family: neuropol;
+        src: url(fonts/neuropol\ x\ rg.otf);
+    }
+    
+    @font-face {
+        font-family: Retro gaming;
+        src: url(fonts/Retro\ Gaming.ttf);
+    }
+    
+    @font-face {
+        font-family: London;
+        src: url(fonts/Green\ London.ttf);
+    }
+    
+    html {
+        background-image: url("img/outer.gif.gif");
+        color: rgb(255, 255, 255);
+        background-size: 1530px;
+        /* gif animé a mettre dans le body */
+        overflow-x: hidden;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img {
+        width: 140px;
+    }
+    
+    header p {
+        text-align: center;
+        font-size: 15px;
+        font-family: neuropol;
+    }
+    
+    header h1 {
+        font-size: 45px;
+        color: rgb(181, 110, 199);
+        font-family: neuropol;
+    }
+    
+    legend {
+        font-size: 1.4em;
+        font-style: oblique;
+    }
+    
+    fieldset {
+        display: grid;
+        justify-items: center;
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Retro gaming;
+        font-size: 1em;
+        padding: 20px;
+        background: linear-gradient(rgb(37, 0, 147, 0.3), rgb(127, 9, 190, 0.3));
+        border: none;
+        border-radius: 15px;
+    }
+    
+    fieldset label {
+        color: rgb(71, 208, 223);
+    }
+    
+    form {
+        display: flex;
+        justify-content: center;
+    }
+    
+    button {
+        background: transparent;
+        border: transparent;
+    }
+    
+    button img {
+        width: 50px;
+    }
+    
+    #name_form {
+        margin-bottom: 15px;
+    }
+    
+    #firstname_form {
+        margin-bottom: 15px;
+    }
+    
+    #birth_form {
+        margin-bottom: 15px;
+    }
+    
+    #gender_form {
+        margin-bottom: 15px;
+    }
+    
+    #city_form {
+        margin-bottom: 15px;
+    }
+    
+    #email_form {
+        margin-bottom: 15px;
+    }
+    
+    #password_form {
+        margin-bottom: 15px;
+    }
+    
+    #hobbies_form {
+        margin-bottom: 15px;
+    }
+    
+    #game_form {
+        margin-bottom: 20px;
+    }
+    
+    #submit_form {
+        margin-bottom: 15px;
+    }
+    
+    main p {
+        text-align: center;
+        font-family: London;
+        font-size: 25px;
+        margin: -10px;
+    }
+    
+    .add {
+        text-align: center;
+    }
+    
+    a {
+        color: red;
+        font-family: Retro gaming;
+        font-size: 20px;
+    }
